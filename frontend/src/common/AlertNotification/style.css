@@ -1,0 +1,27 @@
+/* .custom-alert {
+    border-radius: 40px;
+    min-height: 28px;
+    height: 49px;
+    padding: 0px;
+} */
+
+.custom-alert {
+    min-height: 28px;
+    height: 49px;
+    padding: 0;
+    padding-left : 5px;
+    display: flex;
+    align-items: center;
+}
+
+.custom-alert .toastify-success .toastify-danger
+{
+    display: flex !important;
+    align-items: center !important;
+}
+
+
+.Toastify__close-button--default {
+        margin-top: 16px !important;
+    padding-right: 16px !important;
+}
